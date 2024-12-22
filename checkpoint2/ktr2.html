@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Tin Tức</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="ktr2.css">
+</head>
+<body>
+    <!-- Thanh điều hướng -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand active" href="index.html">Trang Chủ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="submit-news.html">Gửi Tin Tức</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Container chính -->
+    <div class="container">
+        <div class="news-grid">
+            <!-- Tin tức 1 -->
+            <div class="news-card">
+                <a href="news-detail.html?id=1">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.7XF41sX6D5nA97GzaA5U1QHaEo&pid=Api&P=0&h=180" alt="Tin tức 1">
+                    <div class="news-content">
+                        <h3 class="news-title">Mùa bảo</h3>
+                        <p class="news-summary">
+                            Bảo ở việt nam 1. Click để xem chi tiết.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Tin tức 2 -->
+            <div class="news-card">
+                <a href="news-detail.html?id=2">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.g7TtsfWvQrXoBH4TriQn8QHaEK&pid=Api&P=0&h=180" alt="Tin tức 2">
+                    <div class="news-content">
+                        <h3 class="news-title">bảo ở tphcm</h3>
+                        <p class="news-summary">
+                            bảo và mưa ở tphcm 2. Click để xem chi tiết.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Tin tức 3 -->
+            <div class="news-card">
+                <a href="news-detail.html?id=3">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.TVAz3UNZXIwECziwdsQFhgHaEo&pid=Api&P=0&h=180" alt="Tin tức 3">
+                    <div class="news-content">
+                        <h3 class="news-title">bảo ở mỹ tho</h3>
+                        <p class="news-summary">
+                           bảo và mưa ở mỹ tho 3. Click để xem chi tiết.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết tin tức</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="ktr2.css">
+</head>
+<body>
+    <!-- Thanh điều hướng -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Trang Chủ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="submit-news.html">Gửi Tin Tức</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Nội dung chi tiết -->
+    <div class="container">
+        <div class="news-detail">
+            <h1>Tiêu đề tin tức chi tiết</h1>
+            <img src="https://tse1.mm.bing.net/th?id=OIP.4kWVgufrc-5auVN3qCtOFwHaHa&pid=Api&P=0&h=180" alt="Hình ảnh chi tiết">
+            <div class="news-content">
+                <p>bảo vệ môi trường</p>
+                <p>cách để bảo vệ môi trường</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gửi tin tức</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="ktr2.css">
+</head>
+<body>
+    <!-- Thanh điều hướng -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Trang Chủ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="submit-news.html">Gửi Tin Tức</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Form gửi tin -->
+    <div class="container">
+        <div class="news-form">
+            <h2>Gửi tin tức mới</h2>
+            <form>
+                <div class="form-group">
+                    <label for="title">Tiêu đề</label>
+                    <input type="text" id="title" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="image">Hình ảnh</label>
+                    <input type="file" id="image" class="form-control" accept="image/*" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="content">Nội dung</label>
+                    <textarea id="content" class="form-control" rows="10" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Gửi tin tức</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
